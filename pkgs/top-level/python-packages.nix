@@ -5343,6 +5343,8 @@ in {
 
   pyptlib = callPackage ../development/python-modules/pyptlib { };
 
+  pyqtchart = pkgs.libsForQt5.callPackage ../development/python-modules/pyqtchart { };
+
   pyqtgraph = callPackage ../development/python-modules/pyqtgraph { };
 
   PyStemmer = callPackage ../development/python-modules/pystemmer {};
